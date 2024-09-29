@@ -75,7 +75,7 @@ def main():
         tampilkan_menu()
         pilihan = input("Pilih menu (1-4): ")
 
-if pilihan == "1":
+        if pilihan == "1":
             items = input("Masukkan item yang akan ditambahkan (pisahkan dengan koma jika lebih dari satu): ")
             belanjaan.tambah_item(items)
         
